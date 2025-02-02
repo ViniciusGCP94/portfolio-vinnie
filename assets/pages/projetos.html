@@ -89,8 +89,41 @@
                         <h3 class="text-3xl mb-2">Terceiro Projeto</h3>
                     </div>
                     <div class="buttons-access h-16 flex justify-between items-center">
-                        <button class="flex justify-center items-center w-2/5 h-3/5 border-2 rounded-xl py-1" >Github</button>
-                        <button class="flex justify-center items-center w-2/5 h-3/5 border-2 rounded-xl py-1">Ver Projeto</button>
+                        <button id="saibaMais" class=" flex justify-center items-center w-2/5 h-3/5 border-2 rounded-xl py-1">Saiba mais</button>
+                    </div>
+                </div>
+                <div id="modal" class=" fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center hidden">
+                    <div class="bg-white w-4/5 h-4/5 p-4 rounded-xl shadow-xl relative flex flex-col justify-center">
+                        <!-- Botão Fechar -->
+                        <button id="close" class="w-7 absolute top-2 right-2 text-xl bg-black rounded-md">&times;</button>
+
+                        <!-- Conteúdo do Modal -->
+                        <div class="border border-blue-400 w-full h-48 rounded-xl bg-blue-500">
+                            <img class="h-full m-auto rounded-lg mb-4 object-cover" src="../images/bg-blue-removebg-preview.png" alt="Projeto">
+                        </div>
+                        <div class="border border-blue-400">
+                            <h2 class="text-2xl font-semibold my-2 text-blue-700">Terceiro Projeto</h2>
+                            <div class="custom-scroll mb-4 overflow-y-scroll h-48 border border-black px-2 pt-2">
+                                <p class="text-gray-600 mb-4">Descrição do projeto completo aqui.Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Curabitur nec ligula at orci vulputate rhoncus. Duis ut velit in nisl consectetur fermentum. 
+                                Vestibulum varius libero sit amet lorem bibendum, vel dictum erat congue. 
+                                Integer varius justo non turpis suscipit, ut sagittis libero gravida. 
+                                Mauris malesuada augue sit amet turpis convallis, id auctor enim dapibus.</p>
+                                <div class="project-stacks flex w-full h-14 border border-blue-400">
+                                    <img class=" h-full" src="../images/html-5.png" alt="">
+                                    <img class=" h-full" src="../images/css-3.png" alt="">
+                                    <img class=" h-full" src="../images/js.png" alt="">
+                                </div>
+                            </div>
+                            
+
+                            <!-- Botões -->
+                            <div class="flex justify-between">
+                                <a href="https://github.com/" target="_blank" class="px-4 py-2 bg-gray-800 text-white rounded-lg">GitHub</a>
+                                <a href="https://verprojeto.com" target="_blank" class="px-4 py-2 bg-blue-500 text-white rounded-lg">Ver Projeto</a>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
                 <div class="my-project flex flex-col justify-between h-64 ">
@@ -106,5 +139,6 @@
     </section>
     <div class="h-20">
     </div>
+    <script src="../script/script.js" defer></script>
 </body>
 </html>
