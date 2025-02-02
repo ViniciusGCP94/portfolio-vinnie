@@ -1,0 +1,21 @@
+:root {
+    --font-poppins: "Poppins", serif;
+    --font-weight-extralight : 200;
+    --font-weight-regular : 400;
+    --font-weight-medium : 500;
+    --font-weight-bold : 700;
+    --font-style-normal: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:var(--font-poppins);
+    font-weight: var(--font-weight-regular);
+    font-style: var(--font-style-normal);
+}
+
+main {
+    padding: 0 30px;
+}

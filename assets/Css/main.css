@@ -1,7 +1,21 @@
-.animated-gradient {
-    -webkit-text-fill-color: transparent;
-    width: 100%;
-    background: repeating-linear-gradient(90deg, rgb(255,255,255) 15%, rgb(82, 122, 185) 56%, rgb(7, 50, 121) 100%);
-    background-size: 200;
-    -webkit-background-clip: text;
+
+main {
+    height: 80vh;
+}
+
+.hero-title,
+.project-hero-title{
+    font-size: 36px;
+    line-height: 2.5rem;
+}
+
+.title-about,
+.title-projects{
+    font-size: 36px;
+}
+
+@media (min-width: 1280px) {
+    main {
+        height: 85vh;
+    }
 }
