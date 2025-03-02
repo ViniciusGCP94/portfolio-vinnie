@@ -31,7 +31,8 @@ main {
 }
 
 .title-about,
-.title-projects{
+.title-projects,
+.title-contact{
     font-size: 36px;
 }
 
